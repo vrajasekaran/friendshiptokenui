@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { DrizzleProvider } from 'drizzle-react'
-
+import {Button, Icon} from 'react-materialize'
 
 import FriendshipToken from './contracts/FriendshipToken.json'
 
