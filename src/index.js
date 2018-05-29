@@ -6,9 +6,9 @@ import registerServiceWorker from './registerServiceWorker';
 import { DrizzleProvider } from 'drizzle-react'
 import {Button, Icon} from 'react-materialize'
 
-import FriendshipToken from './contracts/FriendshipToken.json'
+import HelloToken from './contracts/HelloToken.json'
 
-console.log(FriendshipToken);
+console.log(HelloToken);
 
 const options = {
     web3: {
@@ -18,7 +18,7 @@ const options = {
             url:  "ws://127.0.0.1:7545"
         }
     },
-    contracts: [FriendshipToken],
+    contracts: [HelloToken],
     events: {}
 };
 
